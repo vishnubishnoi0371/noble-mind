@@ -53,7 +53,6 @@
 .ff-mon {
   font-family: "Montserrat", sans-serif;
 }
-
 /* line-height */
 .lh-21 {
   line-height: 21px;
@@ -61,22 +60,17 @@
 .lh-24 {
   line-height: 24px;
 }
-
 /* gap */
 .gap-40 {
   gap: 40px;
 }
-/* padding */
 .py-19 {
   padding-bottom: 19px;
   padding-top: 19px;
 }
-/* max-w */
-
 .mw-410 {
   max-width: 410px;
 }
-
 /* nav */
 .main-btn:hover::after {
   opacity: 0;
@@ -91,7 +85,6 @@
   background: linear-gradient(130.88deg, #a854e9 -9.14%, #4f91fc 283.16%);
   z-index: -1;
   opacity: 1;
-
   transition: all 400ms linear;
 }
 .main-btn {
@@ -109,21 +102,17 @@
 .nav-head:hover {
   color: var(--black-2) !important;
 }
-
 .crossLine1 {
   rotate: 48deg;
   transform: translateX(10.3px) translateY(8px);
 }
-
 .crossLine2 {
   rotate: 123deg;
   transform: translateX(-2px);
 }
-
 .underline-hover2 {
   position: relative;
 }
-
 .underline-hover2::after {
   content: "";
   position: absolute;
@@ -148,7 +137,6 @@
 .underline-hover2:hover {
   color: white;
 }
-
 .underline-hover2:hover::after {
   left: 0;
   width: 100%;
@@ -169,7 +157,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .s5-slider .slick-dots li {
   width: 8px !important;
   height: 8px !important;
@@ -177,11 +164,9 @@
   background: #ebd8f8;
   margin: 0 !important;
 }
-
 .s5-slider .slick-dots li button:before {
   content: unset;
 }
-
 .s5-slider .slick-dots li.slick-active {
   background: #a854e9;
   width: 28px !important;
@@ -189,14 +174,12 @@
   border-radius: 18px;
 }
 /* MySlide.css */
-
 .slide-card.slick-center {
   border: 4px solid red !important;
 }
-
 .full_img {
   border-radius: 24px;
-  height: 300px;
+  max-height: 530px;
   object-fit: cover;
 }
 .slide-card:hover {
@@ -287,7 +270,6 @@
   border: 1px solid #a854e9 !important;
   box-shadow: 0px 4px 32px 0px #00000014, 0 5px 0 #a854e9;
 }
-
 .accordion-button:focus {
   z-index: 3;
   outline: 0;
@@ -297,7 +279,6 @@
 .contact-img {
   border-radius: 12px;
 }
-
 label {
   display: block;
   margin-bottom: 5px;
@@ -312,10 +293,8 @@ input[type="text"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
-
   background: transparent;
 }
-
 input[type="mail"] {
   width: 100%;
   padding: 10px;
@@ -347,7 +326,6 @@ textarea[type="message"] {
   border-radius: 5px;
   cursor: pointer;
 }
-
 /* preloader */
 .load {
   color: #a854e9;
@@ -355,7 +333,6 @@ textarea[type="message"] {
 .bg_light {
   background: linear-gradient(130.88deg, #a854e9 -9.14%, #4f91fc 283.16%);
 }
-
 .dot {
   height: 20px;
   width: 20px;
@@ -364,36 +341,29 @@ textarea[type="message"] {
   background-color: #fff;
   animation: pulse 1.5s infinite ease-in-out;
 }
-
 .dot:last-child {
   margin-right: 0;
 }
-
 .dot:nth-child(1) {
   animation-delay: -0.3s;
 }
-
 .dot:nth-child(2) {
   animation-delay: -0.1s;
 }
-
 .dot:nth-child(3) {
   animation-delay: 0.1s;
 }
-
 @keyframes pulse {
   0% {
     transform: scale(0.8);
     background-color: #fff;
     box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
   }
-
   50% {
     transform: scale(1.2);
     background-color: #fff;
     box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
   }
-
   100% {
     transform: scale(0.8);
     background-color: #fff;
@@ -426,6 +396,9 @@ textarea[type="message"] {
   border: 1px solid #a480e1 !important;
   border-radius: 6px;
   outline: none !important;
+}
+.pointer{
+  cursor: pointer;
 }
 .bg_layer {
   background: #fff;
@@ -510,11 +483,8 @@ textarea[type="message"] {
     height: 100%;
     max-width: 100%;
     padding: 18px;
-    border: 1px solid #eeddfb;
-    border-radius: 12px;
   }
 }
-
 @media (min-width: 992px) {
   .full_img {
     border-radius: 24px;

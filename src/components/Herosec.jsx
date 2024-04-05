@@ -33,7 +33,7 @@ const Herosec = () => {
         </div>
       </div>
       <img className="position-absolute elip-1 ep-img" src={elp1} alt="star" />
-      <span className="h-100 w-100 d-block d-md-none position-absolute bg_layer z-0"></span>
+      <span className="h-100 w-100 d-block d-lg-none position-absolute bg_layer z-0"></span>
     </div>
   );
 };

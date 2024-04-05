@@ -16,7 +16,7 @@ const Mynav = () => {
     <div>
       <div className="container">
         <div className="d-flex align-items-center justify-content-between py-19">
-          <img src={logo} alt="icon" />
+          <img className="pointer" src={logo} alt="icon" />
           <div className="d-flex align-items-center justify-content-center gap-40">
             <ul
               className={`${
