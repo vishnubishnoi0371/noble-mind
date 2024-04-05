@@ -107,7 +107,7 @@
   transition: all 500ms linear;
 }
 .nav-head:hover {
-  color: var(--gray-2) !important;
+  color: var(--black-2) !important;
 }
 
 .crossLine1 {

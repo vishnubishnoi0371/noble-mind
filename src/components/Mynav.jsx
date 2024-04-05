@@ -27,7 +27,7 @@ const Mynav = () => {
                 <a
                   href="#home"
                   onClick={setopen}
-                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal gray-2 ff-exo nav-head"
                 >
                   Home
                 </a>
@@ -36,7 +36,7 @@ const Mynav = () => {
                 <a
                   href="#about"
                   onClick={setopen}
-                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal gray-2 ff-exo nav-head"
                 >
                   About us
                 </a>
@@ -45,7 +45,7 @@ const Mynav = () => {
                 <a
                   href="#service"
                   onClick={setopen}
-                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal  gray-2 ff-exo nav-head"
                 >
                   Services
                 </a>
@@ -54,7 +54,7 @@ const Mynav = () => {
                 <a
                   href="#chose"
                   onClick={setopen}
-                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal  gray-2 ff-exo nav-head"
                 >
                   Why Chose us
                 </a>
@@ -63,7 +63,7 @@ const Mynav = () => {
                 <a
                   href="#blog"
                   onClick={setopen}
-                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="underline-hover text-decoration-none lh-24 fs-md fw-normal gray-2 ff-exo nav-head"
                 >
                   Blogs
                 </a>
@@ -72,7 +72,7 @@ const Mynav = () => {
                 <a
                   href="#faq"
                   onClick={setopen}
-                  className="text-decoration-none underline-hover lh-24 fs-md fw-normal black-2 ff-exo nav-head"
+                  className="text-decoration-none underline-hover lh-24 fs-md fw-normal gray-2 ff-exo nav-head"
                 >
                   FAQ
                 </a>
