@@ -56,7 +56,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#home"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       Home
                     </a>
@@ -64,7 +64,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#about"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       About us
                     </a>
@@ -72,7 +72,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#service"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       services
                     </a>
@@ -80,7 +80,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#chose"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       Why Choose Us
                     </a>
@@ -95,7 +95,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#home"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       Term & Conduction
                     </a>
@@ -103,7 +103,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#about"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       Privacy Policy
                     </a>
@@ -111,7 +111,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="#service"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       Contact
                     </a>
@@ -119,7 +119,7 @@ const MyFooter = () => {
                   <li className="mb-3">
                     <a
                       href="tel:(629) 555-0129"
-                      className="ff-exo fw-normal fs-md gray-2 lh-24 underline-hover2 text-decoration-none "
+                      className="ff-exo fw-normal fs-md text-white op-7 lh-24 underline-hover2 text-decoration-none "
                     >
                       (629) 555-0129
                     </a>
@@ -131,7 +131,7 @@ const MyFooter = () => {
         </div>
       </div>
       <hr className="w-100 ft-line" />
-      <p className="ff-exo fw-normal fs-sm gray-2 lh-21 pb-4 mb-0 pt-2 text-center">
+      <p className="ff-exo fw-normal fs-sm text-white op-7 lh-21 pb-4 mb-0 pt-2 text-center">
         © Copyright 2024 Noble Mind | All rights reserved.
       </p>
     </div>

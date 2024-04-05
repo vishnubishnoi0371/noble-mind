@@ -96,6 +96,21 @@
   z-index: 0;
   background: linear-gradient(130.88deg, #a480e1 283.16%, #4f91fc -9.14%);
 }
+.op-7 {
+  opacity: 70%;
+}
+.sub-btn {
+  background: #ffffff0d;
+  backdrop-filter: 30px;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: all 400ms linear;
+  padding: 14px 24px;
+}
+.sub-btn:hover {
+  background: #a480e1;
+  border: 1px solid transparent;
+}
 .nav-head {
   transition: all 500ms linear;
 }
@@ -314,6 +329,10 @@ textarea[type="message"] {
 .error {
   border-color: #ff0000;
 }
+input,
+textarea {
+  outline: unset !important;
+}
 .error-message {
   color: #ff0000;
   margin-top: 5px;
@@ -397,7 +416,7 @@ textarea[type="message"] {
   border-radius: 6px;
   outline: none !important;
 }
-.pointer{
+.pointer {
   cursor: pointer;
 }
 .bg_layer {
@@ -414,13 +433,7 @@ textarea[type="message"] {
 .newslatter {
   transform: translateY(13%);
 }
-.sub-btn {
-  background: #ffffff0d;
-  backdrop-filter: 30px;
-  border: 1px solid white;
-  border-radius: 4px;
-  padding: 14px 24px;
-}
+
 .mw-448 {
   width: 448px;
   max-width: 100%;
