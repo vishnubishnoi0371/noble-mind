@@ -101,7 +101,7 @@ const ContactUs = () => {
             <h1 className="fw-semibold text-center text-lg-start ff-out fs-xl black-2 mb-2 lh-57">
               Contact <span className="fw-light">Us</span>
             </h1>
-            <p className="mt-2 fs-md text-center text-lg-start ff-exo fw-normal lh-24 mb-3 pb-1 gray-2 mw-410">
+            <p className="mt-2 fs-md text-center mx-auto mx-lg-0 text-lg-start ff-exo fw-normal lh-24 mb-3 pb-1 gray-2 mw-410">
               Feel free to contact us any time. We will get back to you as soon
               as we can!{" "}
             </p>

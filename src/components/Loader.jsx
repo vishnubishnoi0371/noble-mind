@@ -8,7 +8,6 @@ const Loader = () => {
       setIsLoaded(true);
       document.body.style.overflow = "";
     }, 4000);
-
     return () => clearTimeout(delay);
   }, []);
   useEffect(() => {
@@ -21,12 +20,12 @@ const Loader = () => {
     >
       <div className="d-flex flex-column gap-3 align-items-center  h-100 justify-content-center">
         <h1 className="fs-xxl ff-exo  fw-semibold text-white">Noble_Mind</h1>
-        <section class="dots-container gap-2">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+        <section className="dots-container gap-2">
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
         </section>
       </div>
     </div>

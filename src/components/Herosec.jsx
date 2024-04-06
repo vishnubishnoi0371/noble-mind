@@ -9,6 +9,7 @@ const Herosec = () => {
       <div className="z-2">
         <Mynav />
       </div>
+      <span className="hero-ep"></span>
       <div
         id="home"
         className="container z-1 d-flex flex-column justify-content-center flex-grow-1"

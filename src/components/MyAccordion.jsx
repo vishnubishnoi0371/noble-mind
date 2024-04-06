@@ -12,9 +12,9 @@ const MyAccordion = () => {
           Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat
           mi leo. Nibh nisl consequat metus.
         </p>
-        <div class="accordion mw-775 mx-auto mt-1" id="accordionExample">
-          <div data-aos="zoom-in" class="accordion-item mb-3">
-            <h2 class="accordion-header" id="headingOne">
+        <div className="accordion mw-775 mx-auto mt-1" id="accordionExample">
+          <div data-aos="zoom-in" className="accordion-item mb-3">
+            <h2 className="accordion-header" id="headingOne">
               <button
                 className="accordion-button fw-medium fs-md lh-24 gray-2 ff-out"
                 type="button"
@@ -28,11 +28,11 @@ const MyAccordion = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
+              <div className="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -40,8 +40,8 @@ const MyAccordion = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" class="accordion-item mb-3">
-            <h2 class="accordion-header" id="headingTwo">
+          <div data-aos="zoom-in" className="accordion-item mb-3">
+            <h2 className="accordion-header" id="headingTwo">
               <button
                 className="accordion-button fw-medium fs-md lh-24 gray-2 ff-out"
                 type="button"
@@ -55,11 +55,11 @@ const MyAccordion = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
+              <div className="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -67,8 +67,8 @@ const MyAccordion = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" class="accordion-item mb-3">
-            <h2 class="accordion-header" id="headingThree">
+          <div data-aos="zoom-in" className="accordion-item mb-3">
+            <h2 className="accordion-header" id="headingThree">
               <button
                 className="accordion-button fw-medium fs-md lh-24 gray-2 ff-out"
                 type="button"
@@ -82,11 +82,11 @@ const MyAccordion = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
+              <div className="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -94,8 +94,8 @@ const MyAccordion = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" class="accordion-item mb-3">
-            <h2 class="accordion-header" id="headingTwo">
+          <div data-aos="zoom-in" className="accordion-item mb-3">
+            <h2 className="accordion-header" id="headingTwo">
               <button
                 className="accordion-button fw-medium fs-md lh-24 gray-2 ff-out"
                 type="button"
@@ -109,11 +109,11 @@ const MyAccordion = () => {
             </h2>
             <div
               id="collapsefour"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingfour"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
+              <div className="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -121,8 +121,8 @@ const MyAccordion = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" class="accordion-item mb-3">
-            <h2 class="accordion-header" id="headingfive">
+          <div data-aos="zoom-in" className="accordion-item mb-3">
+            <h2 className="accordion-header" id="headingfive">
               <button
                 className="accordion-button fw-medium fs-md lh-24 gray-2 ff-out"
                 type="button"
@@ -136,11 +136,11 @@ const MyAccordion = () => {
             </h2>
             <div
               id="collapsefive"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingfive"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
+              <div className="accordion-body fs-md lh-24  ff-exo fw-normal gray-2">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -151,8 +151,16 @@ const MyAccordion = () => {
         </div>
       </div>
       <img className="position-absolute elip-5 ep-img" src={elp1} alt="ellip" />
-      <img className="position-absolute elip-6 d-none d-md-block ep-img" src={elp1} alt="ellip" />
-      <img className="position-absolute elip-7 d-none d-md-block ep-img" src={elp1} alt="ellip" />
+      <img
+        className="position-absolute elip-6 d-none d-lg-block ep-img"
+        src={elp1}
+        alt="ellip"
+      />
+      <img
+        className="position-absolute elip-7 d-none d-lg-block ep-img"
+        src={elp1}
+        alt="ellip"
+      />
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Newsletter = () => {
         </p>
         <div
           data-aos="zoom-in"
-          className="d-flex  mw-410 mb-3 comp-mail flex-colum mx-auto align-items-center justify-content-between"
+          className="d-flex bg_mail mw-410 mb-3 comp-mail flex-colum mx-auto align-items-center justify-content-between"
         >
           <input
             placeholder="Enter  your email"
@@ -27,9 +27,11 @@ const Newsletter = () => {
             id="email"
             name="email"
           />
-          <button className="d-none d-md-block sub-btn text-white fw-semibold me-2 ff-out lh-24 fs-md">
-            Subscribe
-          </button>
+          <div>
+            <button className="d-none d-md-block sub-btn text-white fw-semibold me-2 ff-out lh-24 fs-md">
+              Subscribe
+            </button>
+          </div>
         </div>
         <button className="d-block mx-auto d-md-none sub-btn mt-4 text-white fw-semibold  ff-out lh-24 fs-md">
           Subscribe
