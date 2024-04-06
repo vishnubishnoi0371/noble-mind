@@ -27,6 +27,7 @@ function App() {
       <Aboutus />
       <MySlide />
       <ContactUs />
+
       <MyAccordion />
       <Newsletter />
       <MyFooter />

@@ -11,7 +11,6 @@ import elp1 from "../Assets/webp/triangle-elp.png";
 
 const MySlide = () => {
   const [centerSlideIndex, setCenterSlideIndex] = useState(1);
-
   const settings = {
     dots: true,
     infinite: true,
@@ -20,7 +19,7 @@ const MySlide = () => {
     slidesToScroll: 1,
     autoplay: true,
     speedAutoplay: 0,
-    centerMode: true,
+    centerMode: false,
     centerPadding: "20px",
     responsive: [
       {
@@ -63,7 +62,7 @@ const MySlide = () => {
       },
     ],
     afterChange: (currentSlideIndex) => {
-      setCenterSlideIndex((currentSlideIndex + 1) % 3);
+      setCenterSlideIndex(currentSlideIndex);
     },
   };
 
@@ -77,9 +76,9 @@ const MySlide = () => {
           </p>
         </div>
         <h1 className="text-black ff-out text-center mx-auto lh-57 mb-2 mb-md-5 fs-xl fw-light mw-520">
-          Driving Innovation &{" "}
+          Driving Innovation &
           <span className="lh-57 fs-xl lh-57 fw-semibold">
-            Transforming Industries{" "}
+            Transforming Industries
           </span>
         </h1>
         <Slider {...settings} className="gap-5 s5-slider  p-2  p-md-4 ">
@@ -87,7 +86,7 @@ const MySlide = () => {
             <div className="slide-card ">
               <img className="mb-2" src={three} alt="nmbr" />
               <h2 className="fw-normal ff-out black-2 fs-lg lh-25">
-                Customer-Centric
+                Workplace Harmony
               </h2>
               <p className="fs-md pb-0 lh-24 fw-normal ff-exo gray-2">
                 Prioritize and anticipate client needs, ensuring our technology
@@ -103,16 +102,19 @@ const MySlide = () => {
               </h2>
               <p className="fs-md pb-0 lh-24 fw-normal ff-exo gray-2">
                 Create a nurturing and peaceful environment for our staff,
-                fostering growth, well-being, and unity. We are more than a
-                team; we are a family.
+                fostering growth, . We are more than a team; we are a family.
               </p>
             </div>
           </div>
           <div className="px-md-2 px-1">
-            <div className="slide-card ">
+            <div
+              className={`slide-card ${
+                centerSlideIndex === 1 ? "middle-slide" : ""
+              }`}
+            >
               <img className="mb-2" src={two} alt="nmbr" />
               <h2 className="fw-normal ff-out black-2 fs-lg lh-25">
-                Customer-Centric
+                Ethical Leadership
               </h2>
               <p className="fs-md pb-0 lh-24 fw-normal ff-exo gray-2">
                 Maintain the highest standards in all practices, ensuring our
